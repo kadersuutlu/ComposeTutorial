@@ -1,18 +1,31 @@
 # Android Jetpack Compose
 
-Bu repo, Android Jetpack Compose eğitim kodlarını içerir.
+This repository contains educational code snippets for Android Jetpack Compose.
 
 ## Rows, Columns & Basic Sizing
 
-- **Column**: Dikey düzen oluşturmak için `Column` bileşenini kullanın. Öğeler en üstten en alta doğru düzenlenir.
+- **Column**: Use the `Column` composable to create a vertical layout. Items are arranged from top to bottom.
 
-- **Row**: Yatay düzen oluşturmak için `Row` bileşenini kullanın. Öğeler soldan sağa doğru düzenlenir.
+- **Row**: Use the `Row` composable to create a horizontal layout. Items are arranged from left to right.
 
-- **Boyutlandırma**: `width`, `height`, `weight` gibi boyutlandırma özelliklerini kullanarak bileşenlerin boyutlarını ayarlayabilirsiniz.
+- **Sizing**: Adjust the size of components using sizing properties like `width`, `height`, and `weight`.
 
 ## Modifiers
 
-- Modifiers, bileşenlerin davranışını, görünümünü ve düzenini değiştirmek için kullanılır.
-- Boyutlandırma, düzen, görünüm ve animasyon modifikatörleriyle bileşenlerinizi özelleştirebilirsiniz.
+- Modifiers are used to change the behavior, appearance, and layout of components.
+- Customize your components using sizing, layout, appearance, and animation modifiers.
 
-Daha fazla bilgi için resmi [Compose belgelerine](https://developer.android.com/jetpack/compose) başvurun.
+## Creating an Image Card Composable
+
+An image card component typically consists of the following elements:
+
+- **Image**: The main focal point of the card, usually a visual representation.
+- **Title**: A title associated with the image.
+- **Description**: A brief description providing context about the image.
+  
+This component combines these elements to present the image along with relevant text to the user.
+
+For more information, refer to the official [Compose documentation](https://developer.android.com/jetpack/compose).
+
+[Android Jetpack Compose Tutorial Playlist](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+
