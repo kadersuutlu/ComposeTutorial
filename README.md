@@ -25,6 +25,12 @@ An image card component typically consists of the following elements:
   
 This component combines these elements to present the image along with relevant text to the user.
 
+## Styling Text
+
+The "Styling Text" section explains how to format text in Jetpack Compose. 
+-We utilize the Text component to achieve this. 
+-This component offers a range of properties that allow us to customize text with attributes such as `color`, `size`, `font`, `weight`, `style`, `alignment` and `decoration`.
+
 For more information, refer to the official [Compose documentation](https://developer.android.com/jetpack/compose).
 
 [Android Jetpack Compose Tutorial Playlist](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
