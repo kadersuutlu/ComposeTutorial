@@ -13,6 +13,7 @@ This repository contains educational code snippets for Android Jetpack Compose.
 ## Modifiers
 
 - Modifiers are used to change the behavior, appearance, and layout of components.
+  
 - Customize your components using sizing, layout, appearance, and animation modifiers.
 
 ## Creating an Image Card Composable
@@ -28,8 +29,18 @@ This component combines these elements to present the image along with relevant 
 ## Styling Text
 
 The "Styling Text" section explains how to format text in Jetpack Compose. 
--We utilize the Text component to achieve this. 
--This component offers a range of properties that allow us to customize text with attributes such as `color`, `size`, `font`, `weight`, `style`, `alignment` and `decoration`.
+
+- We utilize the Text component to achieve this. 
+
+- This component offers a range of properties that allow us to customize text with attributes such as `color`, `size`, `font`, `weight`, `style`, `alignment` and `decoration`.
+
+## State
+
+State is a fundamental concept in Jetpack Compose that represents the current snapshot of data in your UI. 
+
+- In Jetpack Compose, UI components are driven by state, and any change in state triggers a recomposition of the UI, updating it to reflect the new state.
+
+- In Compose, state can be represented using the `remember` and `mutableStateOf` functions. `remember` is used to create a stable reference to an object that survives recompositions, while `mutableStateOf` is used to create a state holder that can be updated.
 
 For more information, refer to the official [Compose documentation](https://developer.android.com/jetpack/compose).
 
