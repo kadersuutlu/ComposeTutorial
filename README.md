@@ -54,6 +54,17 @@ State is a fundamental concept in Jetpack Compose that represents the current sn
 
 - Snackbars are components used to display temporary notifications to users. In Jetpack Compose, snackbars are displayed using the SnackbarHost and Snackbar composable.
 
+## Lists
+
+Lists are commonly used to display a collection of items in a scrollable vertical layout. In Jetpack Compose, lists are represented using the `LazyColumn` composable for vertically scrolling lists and the `LazyRow` composable for horizontally scrolling lists.
+
+### Vertical Lists
+
+Vertical lists, represented by the `LazyColumn` composable, are used to display items in a vertical arrangement that can be scrolled vertically.
+
+### Horizontal Lists
+
+Horizontal lists, represented by the `LazyRow` composable, are used to display items in a horizontal arrangement that can be scrolled horizontally.
   
 For more information, refer to the official [Compose documentation](https://developer.android.com/jetpack/compose).
 
