@@ -65,7 +65,17 @@ Vertical lists, represented by the `LazyColumn` composable, are used to display 
 ### Horizontal Lists
 
 Horizontal lists, represented by the `LazyRow` composable, are used to display items in a horizontal arrangement that can be scrolled horizontally.
-  
+
+## ConstraintLayout
+
+ConstraintLayout is a flexible layout manager that allows you to create complex layouts with a flat view hierarchy. In Jetpack Compose, ConstraintLayout is represented using the `ConstraintLayout` composable.
+
+- To use ConstraintLayout, you need to add the ConstraintLayout dependency to your project. `implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")`
+
+-  Then, you can create a ConstraintLayout and define constraints to position and size its children.
+
+- ConstraintLayout in Jetpack Compose supports many advanced features, including chains, bias, barriers, groups, and more. These features allow you to create even more complex and responsive layouts.
+
 For more information, refer to the official [Compose documentation](https://developer.android.com/jetpack/compose).
 
 [Android Jetpack Compose Tutorial Playlist](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
