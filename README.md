@@ -76,6 +76,20 @@ ConstraintLayout is a flexible layout manager that allows you to create complex 
 
 - ConstraintLayout in Jetpack Compose supports many advanced features, including chains, bias, barriers, groups, and more. These features allow you to create even more complex and responsive layouts.
 
+## Simple Animations
+
+- Animations are essential for creating dynamic and engaging user interfaces. Jetpack Compose provides simple and powerful tools for adding animations to your UI.
+
+### Transition Animations
+
+Transition animations are used to animate changes between different states of a UI element. In Jetpack Compose, transition animations can be achieved using the `animate*AsState` functions combined with modifiers like `Modifier.animateContentSize` or `Modifier.offset`.
+
+### Value-based Animations
+
+Value-based animations animate changes to a numeric value over time. In Jetpack Compose, value-based animations can be achieved using the animateValueAsState function.
+
+- Jetpack Compose simplifies the process of adding animations to your UI, allowing you to create dynamic and visually appealing user experiences with ease.
+
 For more information, refer to the official [Compose documentation](https://developer.android.com/jetpack/compose).
 
 [Android Jetpack Compose Tutorial Playlist](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
