@@ -90,7 +90,9 @@ Value-based animations animate changes to a numeric value over time. In Jetpack 
 
 - Jetpack Compose simplifies the process of adding animations to your UI, allowing you to create dynamic and visually appealing user experiences with ease.
 
+You can also check out this article: [Jetpack Compose](https://sutlukader.medium.com/android-jetpack-compose-efd5104c0d1f).
+
 For more information, refer to the official [Compose documentation](https://developer.android.com/jetpack/compose).
 
-[Android Jetpack Compose Tutorial Playlist](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC)
+Additionally, if you prefer video tutorials, you can explore the[Android Jetpack Compose Tutorial Playlist](https://www.youtube.com/playlist?list=PLQkwcJG4YTCSpJ2NLhDTHhi6XBNfk9WiC) on Youtube.
 
